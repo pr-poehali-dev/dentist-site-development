@@ -24,9 +24,9 @@ const SERVICES = [
 const PRICES = [
   { category: "Терапия", items: [
     { name: "Консультация врача", price: "Бесплатно" },
-    { name: "Лечение кариеса (1 поверхность)", price: "от 3 500 ₽" },
-    { name: "Лечение кариеса (2-3 поверхности)", price: "от 5 500 ₽" },
-    { name: "Лечение пульпита", price: "от 8 000 ₽" },
+    { name: "Лечение кариеса (1 поверхность)", price: "Бесплатно" },
+    { name: "Лечение кариеса (2-3 поверхности)", price: "Бесплатно" },
+    { name: "Лечение пульпита", price: "Бесплатно" },
   ]},
   { category: "Эстетика", items: [
     { name: "Отбеливание Beyond", price: "от 15 000 ₽" },
@@ -240,7 +240,7 @@ export default function Index() {
                 Ордина Анна<br /><em>Алексеевна</em>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Врач-стоматолог высшей категории, кандидат медицинских наук. Окончил Первый МГМУ им. И.М. Сеченова с отличием. Постоянно повышает квалификацию на международных конференциях.
+                Врач-стоматолог высшей категории. Окончила Архангельский государственный медицинский университет. Постоянно повышает квалификацию на международных конференциях.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 Специализируется на сложных случаях восстановительной и эстетической стоматологии. Главный принцип — лечить пациента, а не зуб.
@@ -577,7 +577,7 @@ export default function Index() {
             <div>
               <h4 className="text-white text-sm font-medium mb-4 tracking-wide uppercase">Контакты</h4>
               <div className="space-y-2 text-white/60 text-sm">
-                <div className="flex items-center gap-2"><Icon name="Phone" size={14} className="text-gold" />+7 (495) 123-45-67</div>
+                <div className="flex items-center gap-2"><Icon name="Phone" size={14} className="text-gold" />+7 (996) 502-89-64</div>
                 <div className="flex items-center gap-2"><Icon name="Mail" size={14} className="text-gold" />info@dentart.ru</div>
                 <div className="flex items-center gap-2"><Icon name="MapPin" size={14} className="text-gold" />Москва, ул. Примерная, 15</div>
               </div>
