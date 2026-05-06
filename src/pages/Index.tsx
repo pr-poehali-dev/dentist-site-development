@@ -29,19 +29,19 @@ const PRICES = [
     { name: "Лечение пульпита", price: "Бесплатно" },
   ]},
   { category: "Эстетика", items: [
-    { name: "Отбеливание Beyond", price: "от 15 000 ₽" },
-    { name: "Винир керамический", price: "от 25 000 ₽" },
-    { name: "Реставрация зуба", price: "от 6 000 ₽" },
+    { name: "Отбеливание Beyond", price: "Бесплатно" },
+    { name: "Винир керамический", price: "Бесплатно" },
+    { name: "Реставрация зуба", price: "Бесплатно" },
   ]},
   { category: "Гигиена", items: [
-    { name: "Профессиональная чистка", price: "от 4 500 ₽" },
-    { name: "Снятие зубного камня (1 зуб)", price: "от 500 ₽" },
-    { name: "Покрытие фторлаком", price: "от 1 500 ₽" },
+    { name: "Профессиональная чистка", price: "Бесплатно" },
+    { name: "Снятие зубного камня (1 зуб)", price: "Бесплатно" },
+    { name: "Покрытие фторлаком", price: "Бесплатно" },
   ]},
   { category: "Хирургия", items: [
-    { name: "Удаление простое", price: "от 3 000 ₽" },
-    { name: "Удаление сложное", price: "от 7 000 ₽" },
-    { name: "Имплантация (1 зуб)", price: "от 50 000 ₽" },
+    { name: "Удаление простое", price: "Бесплатно" },
+    { name: "Удаление сложное", price: "Бесплатно" },
+    { name: "Имплантация (1 зуб)", price: "Бесплатно" },
   ]},
 ];
 
@@ -74,8 +74,6 @@ const REVIEWS = [
 
 const DOCTORS = [
   { name: "Ордина Анна Алексеевна", spec: "Терапевт, хирург" },
-  { name: "Смирнова Ольга Николаевна", spec: "Ортодонт, эстетист" },
-  { name: "Козлов Андрей Викторович", spec: "Имплантолог, хирург" },
 ];
 
 const TIME_SLOTS = ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "14:00", "14:30", "15:00", "15:30", "16:00", "17:00"];
@@ -579,7 +577,7 @@ export default function Index() {
               <div className="space-y-2 text-white/60 text-sm">
                 <div className="flex items-center gap-2"><Icon name="Phone" size={14} className="text-gold" />+7 (996) 502-89-64</div>
                 <div className="flex items-center gap-2"><Icon name="Mail" size={14} className="text-gold" />info@dentart.ru</div>
-                <div className="flex items-center gap-2"><Icon name="MapPin" size={14} className="text-gold" />Москва, ул. Примерная, 15</div>
+                <div className="flex items-center gap-2"><Icon name="MapPin" size={14} className="text-gold" />п. Октябрьский, Устьянская ЦРБ</div>
               </div>
             </div>
             <div>
