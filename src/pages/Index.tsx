@@ -74,7 +74,7 @@ const DOCTORS = [
   { name: "Ордина Анна Алексеевна", spec: "Терапевт, хирург" },
 ];
 
-const TIME_SLOTS = ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "14:00", "14:30", "15:00", "15:30", "16:00", "17:00"];
+const TIME_SLOTS = ["08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00"];
 
 export default function Index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -119,8 +119,8 @@ export default function Index() {
               <Icon name="Heart" size={16} className="text-white" />
             </div>
             <div>
-              <div className="font-cormorant text-lg font-semibold text-navy leading-tight">ДентАрт</div>
-              <div className="text-[10px] text-muted-foreground tracking-widest uppercase">Стоматологическая клиника</div>
+              <div className="font-cormorant text-lg font-semibold text-navy leading-tight">Устьянская ЦРБ</div>
+              <div className="text-[10px] text-muted-foreground tracking-widest uppercase">Стоматологическое отделение</div>
             </div>
           </div>
 
@@ -566,7 +566,7 @@ export default function Index() {
                 <div className="w-7 h-7 bg-gold/20 rounded-sm flex items-center justify-center">
                   <Icon name="Heart" size={14} className="text-gold" />
                 </div>
-                <span className="font-cormorant text-xl text-white font-medium">ДентАрт</span>
+                <span className="font-cormorant text-xl text-white font-medium">Устьянская ЦРБ</span>
               </div>
               <p className="text-white/50 text-sm leading-relaxed">Профессиональная стоматология с заботой о каждом пациенте</p>
             </div>
@@ -581,14 +581,14 @@ export default function Index() {
             <div>
               <h4 className="text-white text-sm font-medium mb-4 tracking-wide uppercase">Часы работы</h4>
               <div className="space-y-2 text-white/60 text-sm">
-                <div className="flex justify-between"><span>Пн – Пт</span><span className="text-white/80">09:00 – 20:00</span></div>
-                <div className="flex justify-between"><span>Суббота</span><span className="text-white/80">10:00 – 18:00</span></div>
+                <div className="flex justify-between"><span>Пн – Пт</span><span className="text-white/80">08:00 – 15:00</span></div>
+                <div className="flex justify-between"><span>Суббота</span><span className="text-white/40">Выходной</span></div>
                 <div className="flex justify-between"><span>Воскресенье</span><span className="text-white/40">Выходной</span></div>
               </div>
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 text-center text-white/30 text-xs">
-            © 2026 ДентАрт. Все права защищены. Лицензия на медицинскую деятельность № ЛО-77-01-000000
+            © 2026 Устьянская ЦРБ. Стоматологическое отделение.
           </div>
         </div>
       </footer>
