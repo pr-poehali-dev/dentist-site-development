@@ -73,7 +73,7 @@ const REVIEWS = [
 ];
 
 const DOCTORS = [
-  { name: "Иванов Сергей Александрович", spec: "Терапевт, хирург" },
+  { name: "Ордина Анна Алексеевна", spec: "Терапевт, хирург" },
   { name: "Смирнова Ольга Николаевна", spec: "Ортодонт, эстетист" },
   { name: "Козлов Андрей Викторович", spec: "Имплантолог, хирург" },
 ];
@@ -237,7 +237,7 @@ export default function Index() {
                 <span className="text-gold text-xs tracking-[0.2em] uppercase font-medium">О враче</span>
               </div>
               <h2 className="font-cormorant text-4xl text-navy font-light mb-6 leading-tight">
-                Иванов Сергей<br /><em>Александрович</em>
+                Ордина Анна<br /><em>Алексеевна</em>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Врач-стоматолог высшей категории, кандидат медицинских наук. Окончил Первый МГМУ им. И.М. Сеченова с отличием. Постоянно повышает квалификацию на международных конференциях.
