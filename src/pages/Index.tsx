@@ -2,7 +2,7 @@ import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const CLINIC_HERO_IMG = "https://cdn.poehali.dev/projects/3158ed33-02d8-482e-afcc-61b439bd1846/files/6590d733-030e-47a7-a21e-9cc52b6ab04f.jpg";
-const DOCTOR_IMG = "https://cdn.poehali.dev/projects/3158ed33-02d8-482e-afcc-61b439bd1846/files/8598db77-3db1-4b55-9adf-8f71ee7c75d7.jpg";
+const DOCTOR_IMG = "https://cdn.poehali.dev/projects/3158ed33-02d8-482e-afcc-61b439bd1846/files/b7b6a66e-dd7a-4187-a9cb-a4690bb87974.jpg";
 
 const NAV_LINKS = [
   { label: "О враче", href: "#about" },
@@ -14,10 +14,8 @@ const NAV_LINKS = [
 
 const SERVICES = [
   { icon: "Stethoscope", title: "Терапевтическая стоматология", desc: "Лечение кариеса, пульпита, восстановление зубов фотополимерными материалами последнего поколения." },
-  { icon: "Sparkles", title: "Эстетическая стоматология", desc: "Отбеливание, виниры, реставрация. Возвращаем белоснежную улыбку без вреда для эмали." },
   { icon: "Shield", title: "Профилактика и гигиена", desc: "Профессиональная чистка, снятие зубного камня, покрытие фторлаком. Здоровые зубы на долгие годы." },
   { icon: "Zap", title: "Хирургическая стоматология", desc: "Удаление зубов, имплантация, синус-лифтинг. Работаем с анестезией — безболезненно и безопасно." },
-  { icon: "Star", title: "Ортодонтия", desc: "Брекеты, элайнеры, ретейнеры. Исправление прикуса и выравнивание зубов в любом возрасте." },
   { icon: "Heart", title: "Детская стоматология", desc: "Лечение молочных и постоянных зубов у детей в дружелюбной атмосфере, без страха и боли." },
 ];
 
@@ -241,14 +239,14 @@ export default function Index() {
                 Врач-стоматолог высшей категории. Окончила Архангельский государственный медицинский университет. Постоянно повышает квалификацию на международных конференциях.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Специализируется на сложных случаях восстановительной и эстетической стоматологии. Главный принцип — лечить пациента, а не зуб.
+                Главный принцип — лечить пациента, а не зуб.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: "Award", text: "Высшая квалификационная категория" },
-                  { icon: "GraduationCap", text: "Кандидат медицинских наук" },
-                  { icon: "Globe", text: "Стажировки в Германии и Израиле" },
-                  { icon: "Users", text: "Автор 12 научных публикаций" },
+                  { icon: "GraduationCap", text: "Архангельский медицинский университет" },
+                  { icon: "Shield", text: "Безболезненное лечение" },
+                  { icon: "Heart", text: "Индивидуальный подход" },
                 ].map(item => (
                   <div key={item.text} className="flex items-start gap-3">
                     <div className="w-8 h-8 bg-gold/10 rounded-sm flex items-center justify-center shrink-0 mt-0.5">
